@@ -1,13 +1,11 @@
 import React from 'react';
-import { FooterWrapper } from './Footer.styles';
+import { FooterWrapper, FooterText } from './Footer.styles';
 
-type OwnProps = {
+type OwnProps = {};
 
-}
-
-const Footer: React.FC<OwnProps> = (props) => (
+const Footer: React.FC<OwnProps> = () => (
   <FooterWrapper>
-    This is a Footer
+    <FooterText>This is a Footer</FooterText>
   </FooterWrapper>
 );
 
