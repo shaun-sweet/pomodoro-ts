@@ -5,7 +5,7 @@ import Footer from '../Footer';
 
 type OwnProps = {};
 
-const Layout: React.FC<OwnProps> = props => (
+const Layout: React.FC<OwnProps> = (props) => (
   <LayoutWrapper>
     <Header />
     This is a Layout
