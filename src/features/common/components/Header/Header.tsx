@@ -1,12 +1,8 @@
 import React from 'react';
-import { HeaderWrapper, HeaderText } from './Header.styles';
+import { HeaderWrapper } from './Header.styles';
 
 type OwnProps = {};
 
-const Header: React.FC<OwnProps> = () => (
-  <HeaderWrapper>
-    <HeaderText>Pomodoro Timer</HeaderText>
-  </HeaderWrapper>
-);
+const Header: React.FC<OwnProps> = () => <HeaderWrapper />;
 
 export default Header;

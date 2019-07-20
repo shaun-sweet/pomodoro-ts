@@ -5,7 +5,7 @@ type OwnProps = {};
 
 const Footer: React.FC<OwnProps> = () => (
   <FooterWrapper>
-    <FooterText>This is a Footer but only in the footer branch</FooterText>
+    <FooterText>Created by Shaun Sweet</FooterText>
   </FooterWrapper>
 );
 

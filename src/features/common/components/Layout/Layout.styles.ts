@@ -6,6 +6,6 @@ export const LayoutWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   flex-flow: column;
-  /* background: ${props => props.theme.lightPrimary}; */
+  font-family: 'Roboto', sans-serif;
   background: linear-gradient(to bottom, #00f260, #0575e6);
 `;
