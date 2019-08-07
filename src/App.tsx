@@ -6,6 +6,7 @@ import theme from './theme';
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
+  
   /* other styles */
 `;
 

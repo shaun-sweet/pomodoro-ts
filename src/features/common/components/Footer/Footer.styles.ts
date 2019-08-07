@@ -9,4 +9,6 @@ export const FooterWrapper = styled.div`
 
 export const FooterText = styled.p`
   color: ${props => props.theme.textOrIcons};
+  font-size: 14px;
+  color: lightgrey;
 `;
